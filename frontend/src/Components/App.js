@@ -8,7 +8,7 @@ export default function App() {
         <div className="content-wrapper">
           <div className={"content"}>
 
-            
+
 
           </div>
         </div>
