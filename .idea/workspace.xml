@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df191f1c-e2d5-460d-866e-1e6873e1f2c5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/src/css/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/Components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +88,7 @@
       <updated>1580950457910</updated>
       <workItem from="1580950461255" duration="3477000" />
       <workItem from="1581000436903" duration="18925000" />
-      <workItem from="1581035747033" duration="1320000" />
+      <workItem from="1581035747033" duration="3214000" />
     </task>
     <servers />
   </component>
@@ -97,26 +100,26 @@
       <screen x="37" y="27" width="1329" height="741" />
     </state>
     <state x="159" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/37.27.1329.741@37.27.1329.741" timestamp="1580951503935" />
-    <state x="434" y="147" width="524" height="507" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581021789890">
+    <state x="434" y="147" width="524" height="507" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581042217061">
       <screen x="37" y="27" width="1329" height="741" />
     </state>
-    <state x="434" y="147" width="524" height="507" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/37.27.1329.741@37.27.1329.741" timestamp="1581021789890" />
-    <state width="1308" height="174" key="GridCell.Tab.0.bottom" timestamp="1581035723132">
+    <state x="434" y="147" width="524" height="507" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/37.27.1329.741@37.27.1329.741" timestamp="1581042217061" />
+    <state width="1308" height="174" key="GridCell.Tab.0.bottom" timestamp="1581041508999">
       <screen x="37" y="27" width="1329" height="741" />
     </state>
-    <state width="1308" height="174" key="GridCell.Tab.0.bottom/37.27.1329.741@37.27.1329.741" timestamp="1581035723132" />
-    <state width="1308" height="174" key="GridCell.Tab.0.center" timestamp="1581035723131">
+    <state width="1308" height="174" key="GridCell.Tab.0.bottom/37.27.1329.741@37.27.1329.741" timestamp="1581041508999" />
+    <state width="1308" height="174" key="GridCell.Tab.0.center" timestamp="1581041508999">
       <screen x="37" y="27" width="1329" height="741" />
     </state>
-    <state width="1308" height="174" key="GridCell.Tab.0.center/37.27.1329.741@37.27.1329.741" timestamp="1581035723131" />
-    <state width="1308" height="174" key="GridCell.Tab.0.left" timestamp="1581035723131">
+    <state width="1308" height="174" key="GridCell.Tab.0.center/37.27.1329.741@37.27.1329.741" timestamp="1581041508999" />
+    <state width="1308" height="174" key="GridCell.Tab.0.left" timestamp="1581041508998">
       <screen x="37" y="27" width="1329" height="741" />
     </state>
-    <state width="1308" height="174" key="GridCell.Tab.0.left/37.27.1329.741@37.27.1329.741" timestamp="1581035723131" />
-    <state width="1308" height="174" key="GridCell.Tab.0.right" timestamp="1581035723131">
+    <state width="1308" height="174" key="GridCell.Tab.0.left/37.27.1329.741@37.27.1329.741" timestamp="1581041508998" />
+    <state width="1308" height="174" key="GridCell.Tab.0.right" timestamp="1581041508999">
       <screen x="37" y="27" width="1329" height="741" />
     </state>
-    <state width="1308" height="174" key="GridCell.Tab.0.right/37.27.1329.741@37.27.1329.741" timestamp="1581035723131" />
+    <state width="1308" height="174" key="GridCell.Tab.0.right/37.27.1329.741@37.27.1329.741" timestamp="1581041508999" />
     <state x="205" y="31" width="992" height="737" key="SettingsEditor" timestamp="1580950610013">
       <screen x="37" y="27" width="1329" height="741" />
     </state>
