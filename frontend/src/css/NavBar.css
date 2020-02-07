@@ -1,0 +1,20 @@
+
+
+.topbar {
+    padding: 1.35em;
+}
+
+.topbar .divider {
+    width: 0;
+    border-right: 1px solid var(--mainColorText);
+    height: 1.6em;
+}
+
+.search-input {
+    width: 15em;
+}
+
+.wrapper-nav-icons {
+
+    width: 55%;
+}
