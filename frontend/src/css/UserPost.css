@@ -1,0 +1,35 @@
+
+
+.header-wrapper {
+    padding: 1em 0;
+}
+
+.main-wrapper-picture {
+    left: -1px;
+    top: -8px;
+    position: absolute;
+}
+
+.wrapper-picture {
+    background-image: linear-gradient(rgb(198, 45, 144), rgb(234, 88, 81), rgb(249, 151, 75));
+    padding: 2px;
+}
+
+.wrapper-picture .wrapper-inner-picture {
+    background-color: white;
+    padding: 2px;
+}
+
+.header-wrapper .user-name {
+    padding-left: .6em;
+}
+
+.header-wrapper > div:nth-child(2) {
+    margin-left: 2.5em;
+}
+
+/* overwrite */
+.card-header {
+    background-color: white;
+    padding: .1em .7em;
+}

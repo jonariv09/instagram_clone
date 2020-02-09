@@ -59,3 +59,9 @@
 .input-group-sm > .input-group-append > .input-group-text {
     font-size: 12px;
 }
+
+
+
+.card-footer {
+    background-color: white;
+}
