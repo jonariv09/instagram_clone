@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df191f1c-e2d5-460d-866e-1e6873e1f2c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/css/UserPost.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/PostComponents/UserComment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/PostComponents/UserPost.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/Components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/Components/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Components/NavBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/Components/UserPost.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Components/UserPost.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/css/NavBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/css/NavBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Components/UserPost.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/css/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/css/Overwrite.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/css/Overwrite.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/css/UserPost.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/css/UserPost.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -49,6 +51,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/src/Components/PostComponents" />
+      <recent name="$PROJECT_DIR$/frontend/src/Components" />
+      <recent name="$PROJECT_DIR$/frontend/src/Components/WrapperLeft" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/frontend/src/images" />
     </key>
@@ -99,7 +106,8 @@
       <workItem from="1581000436903" duration="18925000" />
       <workItem from="1581035747033" duration="3548000" />
       <workItem from="1581086288472" duration="22863000" />
-      <workItem from="1581180102001" duration="13625000" />
+      <workItem from="1581180102001" duration="13704000" />
+      <workItem from="1581263496764" duration="18338000" />
     </task>
     <servers />
   </component>
@@ -115,22 +123,22 @@
       <screen x="37" y="27" width="1329" height="741" />
     </state>
     <state x="434" y="147" width="524" height="507" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/37.27.1329.741@37.27.1329.741" timestamp="1581042217061" />
-    <state width="1308" height="174" key="GridCell.Tab.0.bottom" timestamp="1581180337368">
+    <state width="1308" height="174" key="GridCell.Tab.0.bottom" timestamp="1581283779868">
       <screen x="37" y="27" width="1329" height="741" />
     </state>
-    <state width="1308" height="174" key="GridCell.Tab.0.bottom/37.27.1329.741@37.27.1329.741" timestamp="1581180337368" />
-    <state width="1308" height="174" key="GridCell.Tab.0.center" timestamp="1581180337366">
+    <state width="1308" height="174" key="GridCell.Tab.0.bottom/37.27.1329.741@37.27.1329.741" timestamp="1581283779868" />
+    <state width="1308" height="174" key="GridCell.Tab.0.center" timestamp="1581283779866">
       <screen x="37" y="27" width="1329" height="741" />
     </state>
-    <state width="1308" height="174" key="GridCell.Tab.0.center/37.27.1329.741@37.27.1329.741" timestamp="1581180337366" />
-    <state width="1308" height="174" key="GridCell.Tab.0.left" timestamp="1581180337366">
+    <state width="1308" height="174" key="GridCell.Tab.0.center/37.27.1329.741@37.27.1329.741" timestamp="1581283779866" />
+    <state width="1308" height="174" key="GridCell.Tab.0.left" timestamp="1581283779865">
       <screen x="37" y="27" width="1329" height="741" />
     </state>
-    <state width="1308" height="174" key="GridCell.Tab.0.left/37.27.1329.741@37.27.1329.741" timestamp="1581180337366" />
-    <state width="1308" height="174" key="GridCell.Tab.0.right" timestamp="1581180337367">
+    <state width="1308" height="174" key="GridCell.Tab.0.left/37.27.1329.741@37.27.1329.741" timestamp="1581283779865" />
+    <state width="1308" height="174" key="GridCell.Tab.0.right" timestamp="1581283779867">
       <screen x="37" y="27" width="1329" height="741" />
     </state>
-    <state width="1308" height="174" key="GridCell.Tab.0.right/37.27.1329.741@37.27.1329.741" timestamp="1581180337367" />
+    <state width="1308" height="174" key="GridCell.Tab.0.right/37.27.1329.741@37.27.1329.741" timestamp="1581283779867" />
     <state x="205" y="31" width="992" height="737" key="SettingsEditor" timestamp="1580950610013">
       <screen x="37" y="27" width="1329" height="741" />
     </state>
@@ -139,6 +147,10 @@
       <screen x="37" y="27" width="1329" height="741" />
     </state>
     <state x="365" y="174" key="run.anything.popup/37.27.1329.741@37.27.1329.741" timestamp="1581199962735" />
+    <state x="364" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1581271586365">
+      <screen x="37" y="27" width="1329" height="741" />
+    </state>
+    <state x="364" y="89" width="672" height="678" key="search.everywhere.popup/37.27.1329.741@37.27.1329.741" timestamp="1581271586365" />
     <state x="426" y="312" width="540" height="177" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1581108589753">
       <screen x="37" y="27" width="1329" height="741" />
     </state>

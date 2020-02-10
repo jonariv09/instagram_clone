@@ -18,6 +18,15 @@
 .wrapper-picture .wrapper-inner-picture {
     background-color: white;
     padding: 2px;
+    height: 32px;
+    width: 32px;
+}
+
+.wrapper-inner-picture .picture {
+    display: block;
+    height: 100%;
+    width: 100%;
+
 }
 
 .header-wrapper .user-name {
@@ -32,4 +41,27 @@
 .card-header {
     background-color: white;
     padding: .1em .7em;
+}
+
+
+
+@media (min-width: 768px) {
+    .card {
+        width: 100%;
+        margin-bottom: 4em;
+    }
+}
+
+@media (max-width: 767px) {
+    .card {
+        border: none;
+        margin-bottom: 0;
+    }
+    .card > .card-header {
+        background-color: var(--mainBackground);
+    }
+
+    .card > .card-footer {
+        background-color: var(--mainBackground);
+    }
 }

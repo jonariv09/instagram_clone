@@ -16,4 +16,11 @@
     flex: 1 0 auto;
 }
 
+@media (min-width: 1200px) {
+    .wrapper .col-posts {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+}
+
 
