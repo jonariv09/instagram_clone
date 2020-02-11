@@ -1,4 +1,10 @@
+:root {
+    --sizeTextCard: .89em;
+}
 
+body {
+    line-height: 1.2;
+}
 
 .header-wrapper {
     padding: 1em 0;
@@ -44,8 +50,16 @@
 }
 
 
+@media (max-width: 415px) {
+    .card,
+    .card > .card-header,
+    .card > .card-body,
+    .card > .card-footer {
+        border: none;
+    }
+}
 
-@media (min-width: 768px) {
+@media (min-width: 600px) {
     .card {
         width: 100%;
         margin-bottom: 4em;
@@ -54,14 +68,61 @@
 
 @media (max-width: 767px) {
     .card {
-        border: none;
         margin-bottom: 0;
     }
+
     .card > .card-header {
+        background-color: var(--mainBackground);
+    }
+
+    .card > .card-body {
         background-color: var(--mainBackground);
     }
 
     .card > .card-footer {
         background-color: var(--mainBackground);
     }
+}
+
+
+
+@media (min-width: 600px) and (max-width: 1000px) {
+
+}
+
+.comments-section {
+    padding: .8em;
+}
+
+.actions-post.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.text-comment-small {
+    font-size: var(--sizeTextCard);
+}
+
+
+.input-text-comment {
+    border: none;
+    outline: none;
+    font-size: var(--sizeTextCard);
+}
+
+.input-text-comment::placeholder {
+
+    color: rgba(0, 0, 0, 0.4)
+}
+
+
+
+.button-public-comment {
+    color: #3897f0;
+    border: none;
+    background-color: transparent;
+}
+
+.button-public-comment.disable {
+    opacity: .3;
 }
