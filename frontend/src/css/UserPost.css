@@ -1,0 +1,128 @@
+:root {
+    --sizeTextCard: .89em;
+}
+
+body {
+    line-height: 1.2;
+}
+
+.header-wrapper {
+    padding: 1em 0;
+}
+
+.main-wrapper-picture {
+    left: -1px;
+    top: -8px;
+    position: absolute;
+}
+
+.wrapper-picture {
+    background-image: linear-gradient(rgb(198, 45, 144), rgb(234, 88, 81), rgb(249, 151, 75));
+    padding: 2px;
+}
+
+.wrapper-picture .wrapper-inner-picture {
+    background-color: white;
+    padding: 2px;
+    height: 32px;
+    width: 32px;
+}
+
+.wrapper-inner-picture .picture {
+    display: block;
+    height: 100%;
+    width: 100%;
+
+}
+
+.header-wrapper .user-name {
+    padding-left: .6em;
+}
+
+.header-wrapper > div:nth-child(2) {
+    margin-left: 2.5em;
+}
+
+/* overwrite */
+.card-header {
+    background-color: white;
+    padding: .1em .7em;
+}
+
+
+@media (max-width: 415px) {
+    .card,
+    .card > .card-header,
+    .card > .card-body,
+    .card > .card-footer {
+        border: none;
+    }
+}
+
+@media (min-width: 600px) {
+    .card {
+        width: 100%;
+        margin-bottom: 4em;
+    }
+}
+
+@media (max-width: 767px) {
+    .card {
+        margin-bottom: 0;
+    }
+
+    .card > .card-header {
+        background-color: var(--mainBackground);
+    }
+
+    .card > .card-body {
+        background-color: var(--mainBackground);
+    }
+
+    .card > .card-footer {
+        background-color: var(--mainBackground);
+    }
+}
+
+
+
+@media (min-width: 600px) and (max-width: 1000px) {
+
+}
+
+.comments-section {
+    padding: .8em;
+}
+
+.actions-post.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.text-comment-small {
+    font-size: var(--sizeTextCard);
+}
+
+
+.input-text-comment {
+    border: none;
+    outline: none;
+    font-size: var(--sizeTextCard);
+}
+
+.input-text-comment::placeholder {
+
+    color: rgba(0, 0, 0, 0.4)
+}
+
+
+
+.button-public-comment {
+    color: #3897f0;
+    border: none;
+    background-color: transparent;
+}
+
+.button-public-comment.disable {
+    opacity: .3;
+}
