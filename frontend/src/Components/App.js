@@ -1,10 +1,10 @@
 import React from 'react'
 import '../css/App.css'
 import '../css/Overwrite.css'
+import '../css/GeneralStyles.css'
 import NavBar from './NavBar'
-import States from './States'
-
 import ContainerPosts from './PostComponents/ContainerPosts'
+import SideSection from './SideSectionComponent/SideSection'
 
 export default function App () {
   return (
@@ -15,7 +15,8 @@ export default function App () {
 
             <NavBar/>
 
-            <div className={'row row-post d-flex justify-content-center no-gutters'}>
+            {/* main-feed-section */}
+            <div className={'main-feed-section row d-flex justify-content-center'}>
 
               <div className="col-posts col-xl-6 col-md-9 col-sm-12">
 
@@ -25,11 +26,12 @@ export default function App () {
 
               <div className="col-md-3 d-md-none d-xl-block">
 
-                <States/>
+                <SideSection/>
 
               </div>
 
             </div>
+            {/* main-feed-section */}
 
           </div>
 

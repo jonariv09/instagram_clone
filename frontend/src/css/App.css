@@ -16,12 +16,32 @@
     flex: 1 0 auto;
 }
 
-@media (min-width: 1200px) {
-    .wrapper .col-posts {
-        padding-left: 1em;
-        padding-right: 1em;
-    }
+.content-wrapper .main-feed-section {
+    padding-top: 3.5em;
 }
 
 
+@media (max-width: 576px) {
+    .col-posts.col-sm-12 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media(min-width: 577px) {
+    .col-posts.col-md-9 {
+        -ms-flex: 0 0 75%;
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-posts.col-xl-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
 
