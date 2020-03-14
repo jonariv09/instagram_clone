@@ -1,5 +1,5 @@
 import React from 'react'
-import '../css/App.css'
+import './App.css'
 import '../css/Overwrite.css'
 import '../css/GeneralStyles.css'
 import NavBar from './NavBar'

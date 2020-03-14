@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import '../../../css/StatesComponent.css'
+import './StatesComponent.css'
 import picturePost from '../../../images/profile-picture.jpg'
 
 function StateUser (props) {
@@ -32,9 +32,9 @@ export default class StatesComponent extends Component {
 
           {
             [1, 2, 3, 4, 5].map((index, n) => (
-              <div className="position-relative state d-flex flex-nowrap" role="alert">
+              <div className="wrapper-container-states position-relative state d-flex flex-nowrap" role="alert">
 
-                <div className={'main-wrapper-picture'}>
+                <div className={'position-relative main-wrapper-picture'}>
                   <div className={`wrapper-picture rounded-circle`}>
                     <div className={`wrapper-inner-picture rounded-circle`}>
 
@@ -45,10 +45,10 @@ export default class StatesComponent extends Component {
                   </div>
                 </div>
 
-                <div className={"state-text text-smaller"}>
+                <div className={"pl-2 state-text text-smaller"}>
 
                   <p className={"font-weight-bold"}> jonariv09 </p>
-                  <p className={"text-lighter text-muted"}> hace { 1 } hora </p>
+                  <p className={"text-lighter text-muted"}> HACE { 1 } HORA </p>
 
                 </div>
               </div>
@@ -56,6 +56,9 @@ export default class StatesComponent extends Component {
           }
 
         </div>
+
+        
+
       </div>
     )
   }

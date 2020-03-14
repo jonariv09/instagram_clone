@@ -1,5 +1,5 @@
 import React from 'react'
-import '../css/NavBar.css'
+import './NavBar.css'
 import { Instagram, Search } from 'react-feather'
 import logo from '../images/instagram_logo.png'
 
