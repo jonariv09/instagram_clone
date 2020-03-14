@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df191f1c-e2d5-460d-866e-1e6873e1f2c5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/Components/PostComponents/UserComment.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Components/PostComponents/UserComment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/Components/PostComponents/UserPost.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Components/PostComponents/UserPost.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/css/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/css/UserPost.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/css/UserPost.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/api/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
