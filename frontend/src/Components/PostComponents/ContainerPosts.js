@@ -4,7 +4,6 @@ import UserPost from './UserPost'
 export default class ContainerPost extends Component {
   constructor (props) {
     super(props)
-
   }
 
   render () {
