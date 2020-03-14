@@ -38,19 +38,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/src/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Codigos de Cursos/NodeJS/Academind Course/validation-express" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/src/images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/frontend/src/Components/PostComponents" />
       <recent name="$PROJECT_DIR$/frontend/src/Components" />
       <recent name="$PROJECT_DIR$/frontend/src/Components/WrapperLeft" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/frontend/src/images" />
     </key>
   </component>
   <component name="RunManager">
@@ -105,6 +105,8 @@
       <workItem from="1581443188521" duration="13323000" />
       <workItem from="1581542214192" duration="9730000" />
       <workItem from="1581615817700" duration="626000" />
+      <workItem from="1582594463218" duration="1077000" />
+      <workItem from="1584220292326" duration="726000" />
     </task>
     <servers />
   </component>
@@ -120,6 +122,10 @@
       <screen x="37" y="27" width="1329" height="741" />
     </state>
     <state x="434" y="147" width="524" height="507" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/37.27.1329.741@37.27.1329.741" timestamp="1581458562539" />
+    <state x="484" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1582594537547">
+      <screen x="37" y="27" width="1329" height="741" />
+    </state>
+    <state x="484" y="155" width="424" height="491" key="FileChooserDialogImpl/37.27.1329.741@37.27.1329.741" timestamp="1582594537547" />
     <state width="1308" height="174" key="GridCell.Tab.0.bottom" timestamp="1581562064392">
       <screen x="37" y="27" width="1329" height="741" />
     </state>
