@@ -9,7 +9,7 @@ export default class ContainerPost extends Component {
   render () {
     return (
       <>
-        
+
         {
           [1, 2, 3].map((index, n) => (
             <UserPost key={index}/>

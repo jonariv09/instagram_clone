@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df191f1c-e2d5-460d-866e-1e6873e1f2c5" name="Default Changelist" comment="">
+    <list default="true" id="2f40cbe3-2456-485f-aafb-844e037d77a3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/Components/PostComponents/ContainerPosts.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Components/PostComponents/ContainerPosts.js" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,22 +15,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="$PROJECT_DIR$/.idea" />
-      </set>
-    </option>
-  </component>
-  <component name="ProjectId" id="1XPb0yPGz2Q4AYzET9hhwrUmdHH" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1ZBM4L0yZZ11vTmr5NYfJFunB4P" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -39,39 +30,37 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/src/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/frontend/src/Components/PostComponents" />
-      <recent name="$PROJECT_DIR$/frontend/src/Components" />
-      <recent name="$PROJECT_DIR$/frontend/src/Components/WrapperLeft" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/frontend/src/images" />
+      <recent name="$PROJECT_DIR$/src/Components/SideSectionComponent" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="js.build_tools.npm">
-      <command value="run" />
-      <scripts />
-      <node-interpreter value="project" />
-      <node-options value="start" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/frontend/package.json" />
+      <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
         <script value="start" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
-      <method v="2" />
+      <method v="2">
+        <option name="NpmBeforeRunTask" enabled="true">
+          <package-json value="$PROJECT_DIR$/package.json" />
+          <command value="run" />
+          <scripts>
+            <script value="start" />
+          </scripts>
+          <node-interpreter value="project" />
+          <envs />
+        </option>
+      </method>
     </configuration>
   </component>
   <component name="ServiceViewManager">
@@ -91,19 +80,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="df191f1c-e2d5-460d-866e-1e6873e1f2c5" name="Default Changelist" comment="" />
-      <created>1580950457910</created>
+      <changelist id="2f40cbe3-2456-485f-aafb-844e037d77a3" name="Default Changelist" comment="" />
+      <created>1584307841862</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1580950457910</updated>
-      <workItem from="1580950461255" duration="3477000" />
-      <workItem from="1581000436903" duration="18925000" />
-      <workItem from="1581035747033" duration="3548000" />
-      <workItem from="1581086288472" duration="22863000" />
-      <workItem from="1581180102001" duration="13704000" />
-      <workItem from="1581263496764" duration="22164000" />
-      <workItem from="1581347739425" duration="12042000" />
-      <workItem from="1581443188521" duration="2243000" />
+      <updated>1584307841862</updated>
+      <workItem from="1584307849256" duration="6139000" />
     </task>
     <servers />
   </component>
@@ -111,6 +93,7 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+<<<<<<< HEAD
     <state x="159" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580951503935">
       <screen x="37" y="27" width="1329" height="741" />
     </state>
@@ -136,20 +119,27 @@
     </state>
     <state width="1308" height="174" key="GridCell.Tab.0.right/37.27.1329.741@37.27.1329.741" timestamp="1584222495421" />
     <state x="205" y="31" width="992" height="737" key="SettingsEditor" timestamp="1580950610013">
+=======
+    <state x="159" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584308841801">
       <screen x="37" y="27" width="1329" height="741" />
     </state>
-    <state x="205" y="31" width="992" height="737" key="SettingsEditor/37.27.1329.741@37.27.1329.741" timestamp="1580950610013" />
-    <state x="365" y="174" key="run.anything.popup" timestamp="1581361185277">
+    <state x="159" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/37.27.1329.741@37.27.1329.741" timestamp="1584308841801" />
+    <state width="1308" height="174" key="GridCell.Tab.0.bottom" timestamp="1584314067281">
+>>>>>>> feature/main-layout
       <screen x="37" y="27" width="1329" height="741" />
     </state>
-    <state x="365" y="174" key="run.anything.popup/37.27.1329.741@37.27.1329.741" timestamp="1581361185277" />
-    <state x="364" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1581271586365">
+    <state width="1308" height="174" key="GridCell.Tab.0.bottom/37.27.1329.741@37.27.1329.741" timestamp="1584314067281" />
+    <state width="1308" height="174" key="GridCell.Tab.0.center" timestamp="1584314067279">
       <screen x="37" y="27" width="1329" height="741" />
     </state>
-    <state x="364" y="89" width="672" height="678" key="search.everywhere.popup/37.27.1329.741@37.27.1329.741" timestamp="1581271586365" />
-    <state x="426" y="312" width="540" height="177" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1581108589753">
+    <state width="1308" height="174" key="GridCell.Tab.0.center/37.27.1329.741@37.27.1329.741" timestamp="1584314067279" />
+    <state width="1308" height="174" key="GridCell.Tab.0.left" timestamp="1584314067278">
       <screen x="37" y="27" width="1329" height="741" />
     </state>
-    <state x="426" y="312" width="540" height="177" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/37.27.1329.741@37.27.1329.741" timestamp="1581108589753" />
+    <state width="1308" height="174" key="GridCell.Tab.0.left/37.27.1329.741@37.27.1329.741" timestamp="1584314067278" />
+    <state width="1308" height="174" key="GridCell.Tab.0.right" timestamp="1584314067280">
+      <screen x="37" y="27" width="1329" height="741" />
+    </state>
+    <state width="1308" height="174" key="GridCell.Tab.0.right/37.27.1329.741@37.27.1329.741" timestamp="1584314067280" />
   </component>
 </project>

@@ -1,6 +1,6 @@
-:root {
-    --sizeTextCard: .89em;
-}
+/*:root {*/
+/*    --sizeTextCard: .89em;*/
+/*}*/
 
 body {
     line-height: 1.2;
@@ -16,24 +16,6 @@ body {
     position: absolute;
 }
 
-.wrapper-picture {
-    background-image: linear-gradient(rgb(198, 45, 144), rgb(234, 88, 81), rgb(249, 151, 75));
-    padding: 2px;
-}
-
-.wrapper-picture .wrapper-inner-picture {
-    background-color: white;
-    padding: 2px;
-    height: 32px;
-    width: 32px;
-}
-
-.wrapper-inner-picture .picture {
-    display: block;
-    height: 100%;
-    width: 100%;
-
-}
 
 .header-wrapper .user-name {
     padding-left: .6em;
@@ -99,22 +81,17 @@ body {
     margin-right: 0;
 }
 
-.text-comment-small {
-    font-size: var(--sizeTextCard);
-}
-
 
 .input-text-comment {
     border: none;
     outline: none;
-    font-size: var(--sizeTextCard);
+    font-size: var(--sizeTextSmall);
 }
 
 .input-text-comment::placeholder {
 
     color: rgba(0, 0, 0, 0.4)
 }
-
 
 
 .button-public-comment {

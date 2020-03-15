@@ -12,8 +12,8 @@ export default class UserComment extends Component {
         <div className={'d-flex py-1 align-items-center'}>
 
           <div className={""}>
-            <span className={'font-weight-bold text-comment-small'}> jonariv09 </span>
-            <span className={"text-comment-small"}> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eos minus reprehenderit similique veritatis. Eligendi, hic, sequi. Amet ex, veniam. </span>
+            <span className={'font-weight-bold text-small'}> jonariv09 </span>
+            <span className={"text-small"}> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eos minus reprehenderit similique veritatis. Eligendi, hic, sequi. Amet ex, veniam. </span>
 
           </div>
 

@@ -24,7 +24,9 @@ export default class UserPost extends Component {
         <div className={'main-wrapper-picture'}>
           <div className={`${classes[0]} rounded-circle`}>
             <div className={`${classes[1]} rounded-circle`}>
+
               <img src={picturePost} className="picture rounded-circle" alt=""/>
+
             </div>
           </div>
         </div>
@@ -135,19 +137,19 @@ export default class UserPost extends Component {
                 <div>
 
                   <span
-                    className="text-like font-weight-bold text-comment-small"> {100} Me gusta </span>
+                    className="text-like font-weight-bold text-small"> {100} Me gusta </span>
                 </div>
 
               </div>
 
 
               <div><span
-                className="user-name-owner font-weight-bold text-comment-small"> luisitocomunica </span>
-                <span className={'text-comment-small'}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ipsa minus nulla officiis possimus quae reiciendis! Aspernatur dolor dolorem fugiat impedit ipsum magni optio provident, quaerat repellat reprehenderit ut voluptas?
+                className="user-name-owner font-weight-bold text-small"> luisitocomunica </span>
+                <span className={'text-small'}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ipsa minus nulla officiis possimus quae reiciendis! Aspernatur dolor dolorem fugiat impedit ipsum magni optio provident, quaerat repellat reprehenderit ut voluptas?
                 </span>
               </div>
 
-              <div className={'py-2 text-muted text-comment-small'}>
+              <div className={'py-2 text-muted text-small'}>
                 Ver los {120} comentarios
               </div>
 
@@ -168,7 +170,7 @@ export default class UserPost extends Component {
 
               <input type="text" placeholder={"Agrega comentario toxico..."} className={"flex-grow-1 input-text-comment"}/>
 
-              <button className={"ml-4 font-weight-bold text-comment-small button-public-comment"}> Publicar </button>
+              <button className={"ml-4 font-weight-bold text-small button-public-comment"}> Publicar </button>
             </form>
 
           </div>

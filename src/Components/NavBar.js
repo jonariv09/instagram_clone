@@ -1,12 +1,12 @@
 import React from 'react'
-import '../css/NavBar.css'
+import './NavBar.css'
 import { Instagram, Search } from 'react-feather'
 import logo from '../images/instagram_logo.png'
 
 export default function NavBar () {
   return (
     <>
-      <nav className={'topbar navbar border-bottom bg-white'}>
+      <nav className={'fixed-top topbar navbar border-bottom bg-white '}>
         <div className={'row d-flex justify-content-center'}>
 
           <div className="col-xl-9 col-md-12">
