@@ -1,6 +1,6 @@
 
-
-
+/* here is the style for an infinity background */
+/* ----------- */
 .wrapper {
     min-height: 100vh;
     display: flex;
@@ -15,6 +15,7 @@
 .wrapper .content-wrapper .content {
     flex: 1 0 auto;
 }
+/* ----------- */
 
 .content-wrapper .main-feed-section {
     padding-top: 3.5em;

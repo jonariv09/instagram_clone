@@ -24,7 +24,7 @@ export default function App () {
 
               </div>
 
-              <div className="col-md-3 d-md-none d-xl-block">
+              <div className=" col-md-3 d-md-none d-xl-block">
 
                 <SideSection/>
 

@@ -6,9 +6,28 @@ function StateUser (props) {
 
   return (
     <>
-      <div>
 
+      <div className="wrapper-container-states position-relative state d-flex flex-nowrap" role="alert">
+
+        <div className={'position-relative main-wrapper-picture'}>
+          <div className={`wrapper-picture rounded-circle`}>
+            <div className={`wrapper-inner-picture rounded-circle`}>
+
+              <img src={picturePost} className="picture rounded-circle"
+                   alt=""/>
+
+            </div>
+          </div>
+        </div>
+
+        <div className={"pl-2 state-text text-smaller"}>
+
+          <p className={"font-weight-bold"}> jonariv09 </p>
+          <p className={"text-lighter text-muted"}> HACE { 1 } HORA </p>
+
+        </div>
       </div>
+
     </>
   )
 
@@ -32,32 +51,11 @@ export default class StatesComponent extends Component {
 
           {
             [1, 2, 3, 4, 5].map((index, n) => (
-              <div className="wrapper-container-states position-relative state d-flex flex-nowrap" role="alert">
-
-                <div className={'position-relative main-wrapper-picture'}>
-                  <div className={`wrapper-picture rounded-circle`}>
-                    <div className={`wrapper-inner-picture rounded-circle`}>
-
-                      <img src={picturePost} className="picture rounded-circle"
-                           alt=""/>
-
-                    </div>
-                  </div>
-                </div>
-
-                <div className={"pl-2 state-text text-smaller"}>
-
-                  <p className={"font-weight-bold"}> jonariv09 </p>
-                  <p className={"text-lighter text-muted"}> HACE { 1 } HORA </p>
-
-                </div>
-              </div>
+              <StateUser key={index}/>
             ))
           }
 
         </div>
-
-        
 
       </div>
     )
