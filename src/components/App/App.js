@@ -1,10 +1,10 @@
 import React from 'react'
 import './App.css'
-import '../css/Overwrite.css'
-import '../css/GeneralStyles.css'
-import NavBar from './NavBar'
-import ContainerPosts from './PostComponents/ContainerPosts'
-import SideSection from './SideSectionComponent/SideSection'
+import './../../css/Overwrite.css'
+import './../../css/GeneralStyles.css'
+import NavBar from '../NavBar/NavBar'
+import Posts from '../Posts/index'
+import RightSection from '../RightSection/index'
 
 export default function App() {
   return (
@@ -19,11 +19,11 @@ export default function App() {
               className={'main-feed-section row d-flex justify-content-center'}
             >
               <div className="col-posts col-xl-6 col-md-9 col-sm-12">
-                <ContainerPosts />
+                <Posts />
               </div>
 
               <div className=" col-md-3 d-md-none d-xl-block">
-                <SideSection />
+                <RightSection />
               </div>
             </div>
             {/* main-feed-section */}

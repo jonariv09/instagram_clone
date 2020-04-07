@@ -1,7 +1,5 @@
-import React, {Component} from 'react'
-import './SideSection.css'
-import profilePicture from '../../images/profile-picture.jpg'
-import StatesComponent from './StatesComponent/StatesComponent'
+import React from 'react'
+import profilePicture from '../../assets/images/profile-picture.jpg'
 
 function UserInfo(props) {
   return (
@@ -34,21 +32,4 @@ function UserInfo(props) {
   )
 }
 
-export default class SideSection extends Component {
-  constructor(props) {
-    super(props)
-  }
-
-  render() {
-    return (
-      <>
-        <div>
-          <div className={'container-side-section d-flex flex-column pr-3'}>
-            <UserInfo />
-            <StatesComponent />
-          </div>
-        </div>
-      </>
-    )
-  }
-}
+export default UserInfo

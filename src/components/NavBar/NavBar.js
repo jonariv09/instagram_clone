@@ -1,7 +1,7 @@
 import React from 'react'
 import './NavBar.css'
 import {Instagram, Search} from 'react-feather'
-import logo from '../images/instagram_logo.png'
+import logo from './../../assets/images/instagram_logo.png'
 
 export default function NavBar() {
   return (

@@ -12,10 +12,9 @@ export default class UserComment extends Component {
           <div className={''}>
             <span className={'font-weight-bold text-small'}> jonariv09 </span>
             <span className={'text-small'}>
-              {' '}
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
               eos minus reprehenderit similique veritatis. Eligendi, hic, sequi.
-              Amet ex, veniam.{' '}
+              Amet ex, veniam.
             </span>
           </div>
 

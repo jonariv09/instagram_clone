@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
-import UserPost from './UserPost'
+import UserPost from '../UserPostCard/index'
 
-export default class ContainerPost extends Component {
+export default class Posts extends Component {
   constructor(props) {
     super(props)
   }

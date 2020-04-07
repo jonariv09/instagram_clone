@@ -1,8 +1,8 @@
 import React, {Component} from 'react'
 import '../../css/UserPost.css'
-import picturePost from '../../images/profile-picture.jpg'
-import postImage from '../../images/post-image.jpg'
-import UserComment from './UserComment'
+import postImage from '../../assets/images/post-image.jpg'
+import UserComment from '../UserComment'
+import profilePicture from './../../assets/images/profile-picture.jpg'
 
 export default class UserPost extends Component {
   constructor(props) {
@@ -23,7 +23,7 @@ export default class UserPost extends Component {
           <div className={`${classes[0]} rounded-circle`}>
             <div className={`${classes[1]} rounded-circle`}>
               <img
-                src={picturePost}
+                src={profilePicture}
                 className="picture rounded-circle"
                 alt=""
               />
