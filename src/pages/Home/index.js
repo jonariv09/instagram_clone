@@ -1,5 +1,5 @@
 import React from 'react'
-import NavBar from '../../components/NavBar/NavBar'
+import NavBar from '../../components/NavBar/index'
 import Posts from '../../components/Posts/index'
 import RightSection from '../../components/RightSection/index'
 import './index.css'
