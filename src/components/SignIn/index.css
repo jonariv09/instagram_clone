@@ -1,0 +1,84 @@
+/* here is the style for an infinity background */
+/* ----------- */
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+}
+
+.content-wrapper {
+  background-color: rgb(250, 250, 250);
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.wrapper .content-wrapper .content {
+  flex: 1 0 auto;
+}
+/* ----------- */
+
+.card {
+  border-radius: 0.1rem;
+}
+
+.sign-in-form {
+  width: 52%;
+  height: 65%;
+  background: white;
+}
+
+.container-form {
+  padding: 2rem 2.4rem;
+}
+
+.email,
+.password {
+  border: 0.15rem;
+}
+
+.form-group {
+  margin-bottom: 0.4rem;
+}
+
+.input-group-sm > .form-control {
+  padding: 1.1rem 0.75rem;
+}
+
+.input-group-sm > .form-control::placeholder {
+  font-size: 0.744rem;
+  font-weight: lighter;
+  color: #6c757de0;
+}
+
+.btn-submit {
+  margin-top: 0.9rem;
+}
+
+[type='submit']:disabled {
+  background: #95c8ff;
+  border: none;
+}
+
+[type='submit']:disabled:hover {
+  cursor: auto;
+}
+
+.form-footer {
+  color: #6c757dab;
+}
+
+.line-divider {
+  height: 1px;
+  width: 40%;
+  background: rgba(0, 0, 0, 0.125);
+}
+
+.facebook-login {
+  font-size: 14px;
+  font-weight: bold;
+  color: #385185;
+}
+
+.password-rescue-link {
+  font-size: 12px;
+  color: #385185;
+}

@@ -1,39 +1,68 @@
 import React from 'react'
+import './index.css'
+import facebookIcon from '../../assets/icons/facebook.svg'
+import Logo from '../../assets/images/instagram_logo_bigger.png'
 
 function SignIn() {
   return (
     <>
-      <form>
-        <div class="form-group">
-          <label for="exampleInputEmail1">Email address</label>
-          <input
-            type="email"
-            class="form-control"
-            id="exampleInputEmail1"
-            aria-describedby="emailHelp"
-          />
-          <small id="emailHelp" class="form-text text-muted">
-            We'll never share your email with anyone else.
-          </small>
+      <div className="sign-in-form card">
+        <div className="form-header d-flex justify-content-center pt-5">
+          <img src={Logo} width="50%" alt="" />
         </div>
-        <div class="form-group">
-          <label for="exampleInputPassword1">Password</label>
-          <input
-            type="password"
-            class="form-control"
-            id="exampleInputPassword1"
-          />
+
+        <div className="container-form">
+          <form>
+            <div className="form-group input-group-sm">
+              <input
+                type="email"
+                className="form-control"
+                id="email"
+                name="email"
+                placeholder="Teléfono, usuario o correo electrónico"
+              />
+            </div>
+            <div className="form-group input-group-sm">
+              <input
+                type="password"
+                className="form-control"
+                id="password"
+                placeholder="Contraseña"
+                name="password"
+              />
+            </div>
+            <button
+              type="submit"
+              className="btn btn-sm btn-block btn-primary btn-submit"
+              disabled
+            >
+              <span className="font-weight-bold"> Iniciar sesión </span>
+            </button>
+          </form>
+
+          <div className="form-footer mt-3">
+            <div className="divider d-flex justify-content-between align-items-center flex-row">
+              <div className="line-divider"></div>
+              <div className="font-weight-bold"> o </div>
+              <div className="line-divider"></div>
+            </div>
+
+            <a
+              href="https://www.facebook.com"
+              className="facebook-login d-flex align-items-center justify-content-center pt-4"
+            >
+              <img src={facebookIcon} alt="" width="15px" />
+              <span className="ml-2"> Iniciar sesión con Facebook </span>
+            </a>
+            <a
+              href="https://www.facebook.com"
+              className="password-rescue-link d-flex justify-content-center pt-3"
+            >
+              ¿Olvidastes tu contraseña?
+            </a>
+          </div>
         </div>
-        <div class="form-group form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-          <label class="form-check-label" for="exampleCheck1">
-            Check me out
-          </label>
-        </div>
-        <button type="submit" class="btn btn-primary">
-          Submit
-        </button>
-      </form>
+      </div>
     </>
   )
 }
