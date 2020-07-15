@@ -1,0 +1,38 @@
+.topbar {
+  padding: 0.7em;
+}
+
+.topbar .divider {
+  width: 0;
+  border-right: 1px solid var(--mainColorText);
+  height: 1.6em;
+}
+
+.search-input {
+  width: 15em;
+}
+
+.wrapper-nav-icons {
+  width: 55%;
+}
+
+@media (max-width: 768px) {
+  .wide-nav-bar {
+    display: none;
+  }
+  .topbar {
+    padding: 0.46em;
+  }
+  .item-camera {
+    padding-left: 1.5em;
+  }
+  .item-message {
+    padding-right: 1.5em;
+  }
+}
+
+@media (min-width: 769px) {
+  .small-nav-bar {
+    display: none;
+  }
+}
