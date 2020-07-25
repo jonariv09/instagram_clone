@@ -2,29 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="514485f1-8129-40e7-8df4-ad041342d657" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/scss/modules/_custom_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavBar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RightSection/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RightSection/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RightSection/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RightSection/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SignIn/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignIn/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SignIn/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignIn/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/States/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/States/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/States/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/States/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SignIn/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignIn/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/UserPostCard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserPostCard/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/GeneralStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/GeneralStyles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/Overwrite.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Overwrite.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/UserPost.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/UserPost.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/GeneralStyles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/GeneralStyles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/Overwrite.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/Overwrite.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/UserPost.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/UserPost.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Login/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,6 +39,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
   </component>
@@ -95,22 +97,22 @@
       <screen x="37" y="27" width="1329" height="741" />
     </state>
     <state x="143" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog/37.27.1329.741@37.27.1329.741" timestamp="1594799798394" />
-    <state width="1308" height="174" key="GridCell.Tab.0.bottom" timestamp="1595668087882">
+    <state width="1308" height="174" key="GridCell.Tab.0.bottom" timestamp="1595670513970">
       <screen x="37" y="27" width="1329" height="741" />
     </state>
-    <state width="1308" height="174" key="GridCell.Tab.0.bottom/37.27.1329.741@37.27.1329.741" timestamp="1595668087882" />
-    <state width="1308" height="174" key="GridCell.Tab.0.center" timestamp="1595668087881">
+    <state width="1308" height="174" key="GridCell.Tab.0.bottom/37.27.1329.741@37.27.1329.741" timestamp="1595670513970" />
+    <state width="1308" height="174" key="GridCell.Tab.0.center" timestamp="1595670513968">
       <screen x="37" y="27" width="1329" height="741" />
     </state>
-    <state width="1308" height="174" key="GridCell.Tab.0.center/37.27.1329.741@37.27.1329.741" timestamp="1595668087881" />
-    <state width="1308" height="174" key="GridCell.Tab.0.left" timestamp="1595668087880">
+    <state width="1308" height="174" key="GridCell.Tab.0.center/37.27.1329.741@37.27.1329.741" timestamp="1595670513968" />
+    <state width="1308" height="174" key="GridCell.Tab.0.left" timestamp="1595670513967">
       <screen x="37" y="27" width="1329" height="741" />
     </state>
-    <state width="1308" height="174" key="GridCell.Tab.0.left/37.27.1329.741@37.27.1329.741" timestamp="1595668087880" />
-    <state width="1308" height="174" key="GridCell.Tab.0.right" timestamp="1595668087882">
+    <state width="1308" height="174" key="GridCell.Tab.0.left/37.27.1329.741@37.27.1329.741" timestamp="1595670513967" />
+    <state width="1308" height="174" key="GridCell.Tab.0.right" timestamp="1595670513969">
       <screen x="37" y="27" width="1329" height="741" />
     </state>
-    <state width="1308" height="174" key="GridCell.Tab.0.right/37.27.1329.741@37.27.1329.741" timestamp="1595668087882" />
+    <state width="1308" height="174" key="GridCell.Tab.0.right/37.27.1329.741@37.27.1329.741" timestamp="1595670513969" />
     <state width="1308" height="217" key="GridCell.Tab.1.bottom" timestamp="1594802357368">
       <screen x="37" y="27" width="1329" height="741" />
     </state>
@@ -163,6 +165,10 @@
       <screen x="37" y="27" width="1329" height="741" />
     </state>
     <state x="205" y="31" width="992" height="737" key="SettingsEditor/37.27.1329.741@37.27.1329.741" timestamp="1594799821404" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1595668476838">
+      <screen x="37" y="27" width="1329" height="741" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/37.27.1329.741@37.27.1329.741" timestamp="1595668476838" />
     <state x="426" y="238" width="540" height="326" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1594802122729">
       <screen x="37" y="27" width="1329" height="741" />
     </state>

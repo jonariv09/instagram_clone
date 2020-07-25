@@ -2,8 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import 'bootstrap/dist/css/bootstrap.css'
 import App from './components/App/App'
-import './css/Overwrite.scss'
-import './css/GeneralStyles.scss'
+import './scss/Overwrite.scss'
+import './scss/GeneralStyles.scss'
 import * as serviceWorker from './serviceWorker'
 
 ReactDOM.render(<App />, document.getElementById('root'))

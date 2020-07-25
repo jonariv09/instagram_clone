@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import '../../css/UserPost.scss'
+import '../../scss/UserPost.scss'
 import postImage from '../../assets/images/post-image.jpg'
 import UserComment from '../UserComment'
 import profilePicture from './../../assets/images/profile-picture.jpg'

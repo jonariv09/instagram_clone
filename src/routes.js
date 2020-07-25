@@ -2,8 +2,8 @@ import React, {lazy, Suspense} from 'react'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 
 // components to be load
-const Home = lazy(() => import('./pages/Home/index'))
-const Login = lazy(() => import('./pages/Login/index'))
+const Home = lazy(() => import('./pages/Home'))
+const Login = lazy(() => import('./pages/Login'))
 
 function AppRoutes() {
   return (
