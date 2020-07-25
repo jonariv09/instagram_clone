@@ -1,3 +1,21 @@
 .content-login {
   padding: 1em;
 }
+
+/* here is the style for an infinity background */
+/* ----------- */
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+}
+
+.content-wrapper {
+  background-color: rgb(250, 250, 250);
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.wrapper .content-wrapper .content {
+  flex: 1 0 auto;
+}
+/* ----------- */

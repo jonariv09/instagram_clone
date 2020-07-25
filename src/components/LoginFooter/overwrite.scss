@@ -1,0 +1,17 @@
+@import '../../scss/modules/custom_variables';
+
+.login-footer {
+  font-size: 12px;
+}
+
+.navbar {
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        color: $text-color-primary;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
