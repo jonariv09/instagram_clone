@@ -1,5 +1,5 @@
 import React from 'react'
-import './index.css'
+import './index.scss'
 import UserInfo from '../UserInfo/index'
 import StatesComponent from '../States'
 

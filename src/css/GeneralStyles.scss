@@ -1,0 +1,39 @@
+:root {
+  --sizeTextSmaller: 0.8em;
+  --sizeTextSmall: 0.89em;
+}
+
+.text-small {
+  font-size: var(--sizeTextSmall);
+}
+
+.text-smaller {
+  font-size: var(--sizeTextSmaller);
+}
+
+.text-lighter {
+  font-weight: lighter;
+}
+
+/* circle-state-style */
+.wrapper-picture {
+  background-image: linear-gradient(
+    rgb(198, 45, 144),
+    rgb(234, 88, 81),
+    rgb(249, 151, 75)
+  );
+  padding: 2px;
+}
+
+.wrapper-picture .wrapper-inner-picture {
+  background-color: white;
+  padding: 2px;
+  height: 35px;
+  width: 35px;
+}
+
+.wrapper-inner-picture .picture {
+  display: block;
+  height: 100%;
+  width: 100%;
+}

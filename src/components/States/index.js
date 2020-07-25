@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import UserState from '../UserState/index'
-import './index.css'
+import './index.scss'
 
 export default class States extends Component {
   render() {

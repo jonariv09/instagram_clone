@@ -1,5 +1,5 @@
 import React from 'react'
-import './index.css'
+import './index.scss'
 import facebookIcon from '../../assets/icons/facebook.svg'
 import Logo from '../../assets/images/instagram_logo_bigger.png'
 
