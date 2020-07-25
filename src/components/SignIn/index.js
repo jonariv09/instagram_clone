@@ -6,7 +6,7 @@ import Logo from '../../assets/images/instagram_logo_bigger.png'
 function SignIn() {
   return (
     <>
-      <div>
+      <div className="sign-in-form-container">
         <div className="sign-in-form card">
           <div className="form-header d-flex justify-content-center">
             <img src={Logo} width="50%" alt="" />

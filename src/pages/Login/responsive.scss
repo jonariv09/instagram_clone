@@ -1,0 +1,43 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+
+@media (max-width: map-get($grid-breakpoints, 'sm')) {
+  .content-login {
+    padding: 0;
+  }
+
+  .image-phone-section {
+    display: none;
+  }
+
+  .sign-in-form-container {
+    .sign-in-form,
+    .bottom-section {
+      border: none;
+      background: transparent;
+    }
+
+    .sign-in-form {
+      padding-left: 1em;
+      padding-right: 1em;
+    }
+
+    .bottom-section {
+      margin-top: 0;
+    }
+  }
+
+  .login-footer {
+    .navbar-nav {
+      padding-left: 1.5em;
+      padding-right: 1.5em;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .copyright-text {
+      text-align: center;
+    }
+  }
+}

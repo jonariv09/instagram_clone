@@ -74,10 +74,10 @@ export default function LoginFooter() {
             </a>
           </li>
         </ul>
-        <span className="p-1 copyright-text">
+        <p className="p-1 mb-0 copyright-text">
           {' '}
           © 2020 INSTAGRAM FROM FACEBOOK{' '}
-        </span>
+        </p>
       </div>
     </>
   )
