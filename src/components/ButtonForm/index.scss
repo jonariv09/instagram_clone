@@ -1,0 +1,22 @@
+@import '../../scss/modules/custom_variables';
+@import '../../scss/mixins/buttons';
+
+.btn-submit {
+  border: none;
+  margin-top: 0.9rem;
+  background-color: $color-button;
+}
+
+.btn-submit:hover {
+  background-color: $color-button;
+}
+
+@include remove-button-shadow(btn-primary, $color-button);
+
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+  box-shadow: none;
+}
+
+[type='submit']:disabled:hover {
+  cursor: auto;
+}

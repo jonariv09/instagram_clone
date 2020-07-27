@@ -5,6 +5,7 @@ import Phone from './../../assets/images/phone.png'
 import LoginFooter from '../../components/LoginFooter'
 import './index.scss'
 import './responsive.scss'
+import SignUp from '../../components/SignUp'
 
 function Login() {
   return (
@@ -16,7 +17,7 @@ function Login() {
               <div className="image-phone-section col-md-6 p-0">
                 <img src={Phone} alt="" />
               </div>
-              <div className="sign-in-form-section col-md-6 p-0">
+              <div className="sign-form-section col-12 col-md-6 p-0">
                 <SignIn />
               </div>
               <LoginFooter />

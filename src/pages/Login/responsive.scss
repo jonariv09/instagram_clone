@@ -10,14 +10,15 @@
     display: none;
   }
 
-  .sign-in-form-container {
-    .sign-in-form,
+  .sign-form-container {
+    .sign-form,
     .bottom-section {
       border: none;
       background: transparent;
     }
 
-    .sign-in-form {
+    .sign-form {
+      width: 100%;
       padding-left: 1em;
       padding-right: 1em;
 

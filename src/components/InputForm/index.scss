@@ -1,0 +1,13 @@
+.form-group {
+  margin-bottom: 0.4rem;
+}
+
+.input-group-sm > .form-control {
+  padding: 1.1rem 0.75rem;
+}
+
+.input-group-sm > .form-control::placeholder {
+  font-size: 0.744rem;
+  font-weight: lighter;
+  color: #6c757de0;
+}

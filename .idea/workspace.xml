@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="514485f1-8129-40e7-8df4-ad041342d657" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/ButtonForm/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ButtonForm/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ButtonForm/overwrite.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/InputForm/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/InputForm/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SignUp/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SignUp/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/modules/_forms.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SignIn/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignIn/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SignIn/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignIn/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Login/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Login/responsive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/responsive.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/Overwrite.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/Overwrite.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/modules/_custom_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/modules/_custom_variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +85,7 @@
       <updated>1594799763070</updated>
       <workItem from="1594799767028" duration="1301000" />
       <workItem from="1594801084104" duration="1949000" />
-      <workItem from="1595858532690" duration="666000" />
+      <workItem from="1595858532690" duration="12042000" />
     </task>
     <servers />
   </component>
@@ -88,22 +104,22 @@
       <screen x="37" y="27" width="1329" height="741" />
     </state>
     <state x="143" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog/37.27.1329.741@37.27.1329.741" timestamp="1594799798394" />
-    <state width="1308" height="174" key="GridCell.Tab.0.bottom" timestamp="1595675495199">
+    <state width="1308" height="2" key="GridCell.Tab.0.bottom" timestamp="1595867604628">
       <screen x="37" y="27" width="1329" height="741" />
     </state>
-    <state width="1308" height="174" key="GridCell.Tab.0.bottom/37.27.1329.741@37.27.1329.741" timestamp="1595675495199" />
-    <state width="1308" height="174" key="GridCell.Tab.0.center" timestamp="1595675495197">
+    <state width="1308" height="2" key="GridCell.Tab.0.bottom/37.27.1329.741@37.27.1329.741" timestamp="1595867604628" />
+    <state width="1308" height="2" key="GridCell.Tab.0.center" timestamp="1595867604627">
       <screen x="37" y="27" width="1329" height="741" />
     </state>
-    <state width="1308" height="174" key="GridCell.Tab.0.center/37.27.1329.741@37.27.1329.741" timestamp="1595675495197" />
-    <state width="1308" height="174" key="GridCell.Tab.0.left" timestamp="1595675495196">
+    <state width="1308" height="2" key="GridCell.Tab.0.center/37.27.1329.741@37.27.1329.741" timestamp="1595867604627" />
+    <state width="1308" height="2" key="GridCell.Tab.0.left" timestamp="1595867604627">
       <screen x="37" y="27" width="1329" height="741" />
     </state>
-    <state width="1308" height="174" key="GridCell.Tab.0.left/37.27.1329.741@37.27.1329.741" timestamp="1595675495196" />
-    <state width="1308" height="174" key="GridCell.Tab.0.right" timestamp="1595675495198">
+    <state width="1308" height="2" key="GridCell.Tab.0.left/37.27.1329.741@37.27.1329.741" timestamp="1595867604627" />
+    <state width="1308" height="2" key="GridCell.Tab.0.right" timestamp="1595867604628">
       <screen x="37" y="27" width="1329" height="741" />
     </state>
-    <state width="1308" height="174" key="GridCell.Tab.0.right/37.27.1329.741@37.27.1329.741" timestamp="1595675495198" />
+    <state width="1308" height="2" key="GridCell.Tab.0.right/37.27.1329.741@37.27.1329.741" timestamp="1595867604628" />
     <state width="1308" height="217" key="GridCell.Tab.1.bottom" timestamp="1594802357368">
       <screen x="37" y="27" width="1329" height="741" />
     </state>
@@ -160,10 +176,10 @@
       <screen x="37" y="27" width="1329" height="741" />
     </state>
     <state width="600" height="424" key="javadoc.popup/37.27.1329.741@37.27.1329.741" timestamp="1595668476838" />
-    <state x="365" y="174" width="672" height="677" key="run.anything.popup" timestamp="1595672610544">
+    <state x="365" y="174" width="672" height="677" key="run.anything.popup" timestamp="1595868137493">
       <screen x="37" y="27" width="1329" height="741" />
     </state>
-    <state x="365" y="174" width="672" height="677" key="run.anything.popup/37.27.1329.741@37.27.1329.741" timestamp="1595672610544" />
+    <state x="365" y="174" width="672" height="677" key="run.anything.popup/37.27.1329.741@37.27.1329.741" timestamp="1595868137493" />
     <state x="426" y="238" width="540" height="326" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1594802122729">
       <screen x="37" y="27" width="1329" height="741" />
     </state>

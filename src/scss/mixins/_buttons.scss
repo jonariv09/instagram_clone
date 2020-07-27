@@ -1,0 +1,10 @@
+@mixin remove-button-shadow($button-class, $background-color) {
+  .#{$button-class}:not(:disabled):not(.disabled):active:focus {
+    box-shadow: none;
+  }
+
+  .#{$button-class}:focus {
+    background-color: $background-color;
+    box-shadow: none;
+  }
+}
