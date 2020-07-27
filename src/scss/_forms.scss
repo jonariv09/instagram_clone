@@ -1,6 +1,6 @@
-@import '~bootstrap/scss/functions';
-@import '~bootstrap/scss/variables';
-@import '../../scss/modules/custom_variables';
+@import '../../node_modules/bootstrap/scss/functions';
+@import '../../node_modules/bootstrap/scss/variables';
+@import 'modules/custom_variables';
 
 .card {
   border-radius: 0;

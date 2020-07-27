@@ -42,22 +42,14 @@ export default class SignUp extends Component {
                   Al registrarte, aceptas nuestras Condiciones, la Política de
                   datos y la Política de cookies.{' '}
                 </p>
-
-                {/*<a*/}
-                {/*  href="https://www.facebook.com"*/}
-                {/*  className="facebook-login d-flex align-items-center justify-content-center pt-4"*/}
-                {/*>*/}
-                {/*  <img src={facebookIcon} alt="" width="15px" />*/}
-                {/*  <span className="ml-2"> Iniciar sesión con Facebook </span>*/}
-                {/*</a>*/}
               </div>
             </div>
           </div>
           <div className="bottom-section">
             <p className="m-0">
-              ¿No tienes cuenta?
+              ¿Tienes una cuenta?
               <a href="" className="bottom-section-button p-1">
-                Regístrate
+                Iniciar sesión
               </a>
             </p>
           </div>

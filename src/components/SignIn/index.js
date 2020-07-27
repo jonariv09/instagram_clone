@@ -4,7 +4,7 @@ import facebookIcon from '../../assets/icons/facebook.svg'
 import Logo from '../../assets/images/instagram_logo_bigger.png'
 import InputForm from '../InputForm'
 import ButtonForm from '../ButtonForm'
-import '../../scss/modules/_forms.scss'
+import '../../scss/_forms.scss'
 
 function SignIn() {
   return (

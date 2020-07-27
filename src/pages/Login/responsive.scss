@@ -36,13 +36,46 @@
     .navbar-nav {
       padding-left: 1.5em;
       padding-right: 1.5em;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-around;
     }
 
     .copyright-text {
       text-align: center;
     }
+  }
+}
+
+@media (max-width: map-get($grid-breakpoints, 'md')) {
+  .image-phone-section {
+    display: none;
+  }
+
+  .sign-form-section {
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar {
+    margin-top: 5rem;
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          padding: 0.2rem 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: map-get($grid-breakpoints, 'lg')) and (max-width: map-get($grid-breakpoints, 'xl')) {
+  .content-login {
+    display: flex;
+    .row-content-login {
+    }
+  }
+
+  .sign-form-section,
+  .image-phone-section {
+    display: flex;
+    align-items: center;
   }
 }

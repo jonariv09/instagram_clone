@@ -4,3 +4,11 @@
   color: $text-color-secondary;
   font-weight: bold;
 }
+
+.login-footer {
+  .navbar-nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}

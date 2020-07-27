@@ -6,7 +6,7 @@ import './overwrite.scss'
 export default function LoginFooter() {
   return (
     <>
-      <div className="login-footer navbar navbar-expand-lg ">
+      <div className="col-md-6 col-lg-12 col-xl-9 login-footer navbar navbar-expand-lg ">
         <ul className="navbar-nav">
           <li className="nav-item">
             <a className="nav-link" href="#">
